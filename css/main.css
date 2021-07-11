@@ -310,7 +310,7 @@ a {
 }
 
 .modal-content {
-    width: 400px;
+    max-width: 300px;
     margin: 150px auto 0;
     background-color: #fff;
     position: relative;
@@ -343,11 +343,12 @@ a {
     height: 40px;
     margin-bottom: 15px;
     outline: transparent;
-    border: 1px solid transparent;
+    border: 1px solid darkgrey;
+    border-radius: 20px;
 }
 
 .modal-input:focus{
-    border: 1px solid #2FC697;
+    border: 2px solid #2FC697;
     border-radius: 20px;
 }
 
